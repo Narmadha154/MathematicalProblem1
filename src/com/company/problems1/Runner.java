@@ -41,13 +41,21 @@ public class Runner {
                 PerfectNumber perfect= new PerfectNumber();
                 perfect.checkPrfNum();
                 break;
-            case 9:
+            case 10:
                 MaximumVolume vol= new MaximumVolume();
                 vol.findMaxVolume();
                 break;
-            case 10:
+            case 11:
                 CircularTour tour= new CircularTour();
                 tour.getInput();
+                break;
+            case 12:
+                Power pow= new Power();
+                pow.checkPower();
+                break;
+            case 13:
+                TwistedPrimeNumber prime= new TwistedPrimeNumber();
+                prime.checkPrime();
                 break;
             default:
                 System.out.println("no program");
